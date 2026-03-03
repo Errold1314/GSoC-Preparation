@@ -9,7 +9,7 @@ Tracking my progress and contributions for GSoC 2027 AI projects.
 
 - Contact: sxc051008@gmail.com
 
-- LinkedIn: https://www.linkedin.com/in/笑驰-孙-5092143a8
+- LinkedIn: https://www.linkedin.com/in/xiaochi-sun-5092143a8
 
 - Goal: GSoC 2027 -> Malaysia WBL -> Singapore Tech Industry
   
