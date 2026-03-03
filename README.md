@@ -7,9 +7,9 @@ Tracking my progress and contributions for GSoC 2027 AI projects.
   
 #Knowledge Repository
 Click the links below to explore my organized learning logs:
--[🛠️ Git & GitHub Journey](./git-logs/)  
+-[Git & GitHub Journey](./git-logs/)  
     My daily progress, troubleshooting logs, and open-source contributions.
--[🎓 Taylor's University Modules](./taylors-university/se-principles.md)  
+-[Taylor's University Modules](./taylors-university/se-principles.md)  
     *tudy notes and exam preparation for Software Engineering and AI courses.
 
 
