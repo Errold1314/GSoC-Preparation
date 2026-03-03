@@ -3,24 +3,24 @@ Tracking my progress and contributions for GSoC 2027 AI projects.
 
 👤Profile
 
--Name: Errold Sun
+- Name: Errold Sun
 
 - University: Taylor's University (Year 1 CS - AI)
 
--Contact: sxc051008@gmail.com
+- Contact: sxc051008@gmail.com
 
--LinkedIn: 
+- LinkedIn: 
 
--Goal: GSoC 2027 -> Malaysia WBL -> Singapore Tech Industry
+- Goal: GSoC 2027 -> Malaysia WBL -> Singapore Tech Industry
   
 #Knowledge Repository
 
 Click the links below to explore my organized learning logs:
 
--[🛠️ Git & GitHub Journey](./git-logs/)  
+- [🛠️ Git & GitHub Journey](./git-logs/)  
     My daily progress, troubleshooting logs, and open-source contributions.
 
--[🎓 Taylor's University Modules](./taylors-university/se-principles.md)  
+- [🎓 Taylor's University Modules](./taylors-university/se-principles.md)  
     Study notes and exam preparation for Software Engineering and AI courses.
 
 
