@@ -4,9 +4,13 @@ Tracking my progress and contributions for GSoC 2027 AI projects.
 #Profile
 - University: Taylor's University (Year 1 CS - AI)
 - Goal: GSoC 2027 -> Malaysia WBL -> Singapore Tech Industry
-
-
-
+  
+#Knowledge Repository
+Click the links below to explore my organized learning logs:
+-[🛠️ Git & GitHub Journey](./git-logs/)  
+    My daily progress, troubleshooting logs, and open-source contributions.
+-[🎓 Taylor's University Modules](./taylors-university/se-principles.md)  
+    *tudy notes and exam preparation for Software Engineering and AI courses.
 
 
 
