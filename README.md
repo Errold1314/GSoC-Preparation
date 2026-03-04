@@ -17,11 +17,13 @@ Tracking my progress and contributions for GSoC 2027 AI projects.
 
 Click the links below to explore my organized learning logs:
 
-- [🛠️ Git & GitHub Journey](./Git%20&%20GitHub%20Journey.md) 
-    My daily progress, troubleshooting logs, and open-source contributions.
+- [🛠️ Git & GitHub Journey](./Git%20&%20GitHub%20Journey.md)
+
+  My daily progress, troubleshooting logs, and open-source contributions.
 
 - [🎓 Taylor's University Modules](./taylors-university/se-principles.md)  
-    Study notes and exam preparation for Software Engineering and AI courses.
+
+  Study notes and exam preparation for Software Engineering and AI courses.
 
 
 
