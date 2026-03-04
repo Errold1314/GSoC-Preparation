@@ -21,7 +21,7 @@ Click the links below to explore my organized learning logs:
 
   My daily progress, troubleshooting logs, and open-source contributions.
 
-- [🎓 Taylor's University Modules](./taylors-university/se-principles.md)  
+- [🎓 Taylor's University Modules](./Taylor's%20University%20Modules.md)
 
   Study notes and exam preparation for Software Engineering and AI courses.
 
