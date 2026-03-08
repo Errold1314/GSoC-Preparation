@@ -2,11 +2,11 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 /**
- * @class GitHubWorkflow
- * @brief Simulates the standard GitHub Flow used in professional and open-source projects.
- * * The GitHub Flow is a lightweight, branch-based workflow that supports 
- * teams who deploy regularly and value fast iteration.
+ * * This workflow follows the industry-standard process: 
+ * Fork -> Clone -> Branch -> Commit -> Push -> Pull Request.
  */
 class GitHubWorkflow {
 public:
@@ -14,39 +14,39 @@ public:
      * @brief Executes the sequence of git commands required to contribute code.
      */
     void execute() {
-        std::cout << "--- Starting Open Source Workflow ---" << std::endl;
+        cout << "--- Starting Open Source Workflow ---" << endl;
         
-        // Step 1: Forking creates a server-side copy for you to work on independently.
+        // Step 1: Forking creates a personal copy of the repository on GitHub.
         step("1. Fork the Repository", "Copying project to your account...");
         
-        // Step 2: Clone the repository to your local machine for development.
+        // Step 2: Clone the repository to your local development environment.
         step("2. Clone", "git clone https://github.com/your-username/repo.git");
         
-        // Step 3: Always work in a feature branch to keep 'main' stable.
+        // Step 3: Create a feature branch to keep the main branch clean and stable.
         step("3. Create Branch", "git checkout -b my-feature");
         
         // Simulating the local coding cycle
-        std::cout << "[Development] Writing code and running local unit tests..." << std::endl;
+        cout << "[Development] Writing code and running local unit tests..." << endl;
         
-        // Step 4: Commit your changes locally. Using descriptive messages is key for polite collaboration.
+        // Step 4: Stage and commit changes. Use meaningful, polite commit messages.
         step("4. Stage & Commit", "git add . && git commit -m 'feat: add user profile'");
         
         // Step 5: Push your branch to your remote fork.
         step("5. Push", "git push origin feature-user-profile");
         
-        std::cout << "\n--- Workflow Complete: Ready to open PR on GitHub! ---" << std::endl;
-        std::cout << "Note: Now visit the original repo on GitHub to open your Pull Request." << std::endl;
+        cout << "\n--- Workflow Complete: Ready to open PR on GitHub! ---" << endl;
+        cout << "Note: Visit the original repository on GitHub to initiate your Pull Request." << endl;
     }
 
 private:
     /**
-     * @brief Utility function to print each stage of the workflow clearly.
-     * @param name The title of the current workflow step.
-     * @param action The specific terminal command or action to be taken.
+     * @brief Helper function to print steps in the workflow clearly.
+     * @param name Title of the workflow step.
+     * @param action The specific Git command to be executed.
      */
-    void step(std::string name, std::string action) {
-        std::cout << "\n[Step] " << name << std::endl;
-        std::cout << ">> " << action << std::endl;
+    void step(string name, string action) {
+        cout << "\n[Step] " << name << endl;
+        cout << ">> " << action << endl;
     }
 };
 
