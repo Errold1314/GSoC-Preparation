@@ -1,1 +1,34 @@
+#include <iostream>
+#include <string>
+#include <vector>
 
+class GitHubWorkflow {
+public:
+    void execute() {
+        std::cout << "--- Starting Open Source Workflow ---" << std::endl;
+        
+        step("1. Fork the Repository", "Copying project to your account...");
+        step("2. Clone", "git clone https://github.com/your-username/repo.git");
+        step("3. Create Branch", "git checkout -b feature-user-profile");
+        
+        // Simulating development
+        std::cout << "[Development] Writing code..." << std::endl;
+        
+        step("4. Stage & Commit", "git add . && git commit -m 'feat: add user profile'");
+        step("5. Push", "git push origin feature-user-profile");
+        
+        std::cout << "--- Workflow Complete: Ready to open PR on GitHub! ---" << std::endl;
+    }
+
+private:
+    void step(std::string name, std::string action) {
+        std::cout << "\n[Step] " << name << std::endl;
+        std::cout << ">> " << action << std::endl;
+    }
+};
+
+int main() {
+    GitHubWorkflow workflow;
+    workflow.execute();
+    return 0;
+}
