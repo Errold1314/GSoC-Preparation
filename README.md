@@ -17,7 +17,8 @@ Tracking my progress and contributions for GSoC 2027 AI projects.
 
 Click the links below to explore my organized learning logs:
 
-- [🛠️ Git & GitHub Journey](./Git%20&%20GitHub%20Journey/）
+- [🛠️ Git & GitHub Journey](./Git%20&%20GitHub%20Journey.md)
+
   My daily progress, troubleshooting logs, and open-source contributions.
 
 - [🎓 Taylor's University Modules](./Taylor's%20University%20Modules.md)
