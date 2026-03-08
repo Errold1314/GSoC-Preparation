@@ -2,25 +2,48 @@
 #include <string>
 #include <vector>
 
+/**
+ * @class GitHubWorkflow
+ * @brief Simulates the standard GitHub Flow used in professional and open-source projects.
+ * * The GitHub Flow is a lightweight, branch-based workflow that supports 
+ * teams who deploy regularly and value fast iteration.
+ */
 class GitHubWorkflow {
 public:
+    /**
+     * @brief Executes the sequence of git commands required to contribute code.
+     */
     void execute() {
         std::cout << "--- Starting Open Source Workflow ---" << std::endl;
         
+        // Step 1: Forking creates a server-side copy for you to work on independently.
         step("1. Fork the Repository", "Copying project to your account...");
+        
+        // Step 2: Clone the repository to your local machine for development.
         step("2. Clone", "git clone https://github.com/your-username/repo.git");
+        
+        // Step 3: Always work in a feature branch to keep 'main' stable.
         step("3. Create Branch", "git checkout -b feature-user-profile");
         
-        // Simulating development
-        std::cout << "[Development] Writing code..." << std::endl;
+        // Simulating the local coding cycle
+        std::cout << "[Development] Writing code and running local unit tests..." << std::endl;
         
+        // Step 4: Commit your changes locally. Using descriptive messages is key for polite collaboration.
         step("4. Stage & Commit", "git add . && git commit -m 'feat: add user profile'");
+        
+        // Step 5: Push your branch to your remote fork.
         step("5. Push", "git push origin feature-user-profile");
         
-        std::cout << "--- Workflow Complete: Ready to open PR on GitHub! ---" << std::endl;
+        std::cout << "\n--- Workflow Complete: Ready to open PR on GitHub! ---" << std::endl;
+        std::cout << "Note: Now visit the original repo on GitHub to open your Pull Request." << std::endl;
     }
 
 private:
+    /**
+     * @brief Utility function to print each stage of the workflow clearly.
+     * @param name The title of the current workflow step.
+     * @param action The specific terminal command or action to be taken.
+     */
     void step(std::string name, std::string action) {
         std::cout << "\n[Step] " << name << std::endl;
         std::cout << ">> " << action << std::endl;
