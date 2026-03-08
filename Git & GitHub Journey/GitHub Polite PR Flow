@@ -23,7 +23,7 @@ public:
         step("2. Clone", "git clone https://github.com/your-username/repo.git");
         
         // Step 3: Always work in a feature branch to keep 'main' stable.
-        step("3. Create Branch", "git checkout -b feature-user-profile");
+        step("3. Create Branch", "git checkout -b my-feature");
         
         // Simulating the local coding cycle
         std::cout << "[Development] Writing code and running local unit tests..." << std::endl;
