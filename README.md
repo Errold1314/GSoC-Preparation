@@ -1,5 +1,5 @@
 # GSoC-Preparation
-Tracking my progress and contributions for GSoC 2027 in OpenCV.
+Tracking my progress and contributions for OpenCV in GSoC 2027.
 
 👤Profile
 
